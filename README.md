@@ -100,7 +100,3 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 ## 👥 Contribución
 
 Las contribuciones son bienvenidas. Por favor, lee las [pautas de contribución](CONTRIBUTING.md) antes de enviar un pull request.
-
-## 📞 Contacto
-
-¿Preguntas o comentarios? Abre un issue o contáctame en [tu@email.com](mailto:tu@email.com)
