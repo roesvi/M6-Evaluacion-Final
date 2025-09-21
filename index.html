@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tienda en línea con Vue.js - Encuentra los mejores productos a los mejores precios" />
+    <meta name="theme-color" content="#3498db" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3498db" />
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <title>Mi Tienda Online - Los Mejores Productos</title>
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    
+    <!-- Preload app assets -->
+    <link rel="preload" as="script" href="/src/main.js" crossorigin />
+  </head>
+  <body>
+    <noscript>
+      <div class="noscript-message">
+        <h1>¡Se requiere JavaScript!</h1>
+        <p>Esta aplicación web requiere JavaScript para funcionar correctamente. Por favor, activa JavaScript en tu navegador.</p>
+      </div>
+    </noscript>
+    
+    <div id="app"></div>
+    
+    <!-- Load scripts -->
+    <script type="module" src="/src/main.js"></script>
+    
+    <!-- Google Analytics (example) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
+  </body>
+</html>

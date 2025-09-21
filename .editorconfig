@@ -1,0 +1,46 @@
+# Editor configuration, see https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{js,jsx,ts,tsx,vue}]
+quote_type = single
+semi = true
+trailing_comma = es5
+print_width = 100
+
+[*.{html,css,scss,json}]
+indent_size = 2
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+
+[package.json]
+indent_size = 2
+
+[*.{cmd,bat}]
+end_of_line = crlf
+
+[*.{sh,bash}]
+end_of_line = lf
+
+# Docker files
+[*.{dockerfile,Dockerfile}]
+indent_style = space
+indent_size = 4
+
+# Git commit message
+[COMMIT_EDITMSG]
+max_line_length = 0
